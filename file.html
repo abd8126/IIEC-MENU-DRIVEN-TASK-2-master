@@ -8,3 +8,37 @@ h1{
 	font-style: inherit;
 	background: linear-gradient(90deg, #90EE90, #fff, #000);	
 }
+body{
+	background: black;
+}
+button {
+  background-color: blue; /* Green */
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.sticky{
+	position: sticky;
+	text-align: center;
+	background: red;
+	padding: 20px 0px 20px 0px;
+	
+}
+</style>
+</head>
+
+<body>
+	<h1>Enter Commands</h1>
+	<form action="http://192.168.43.183/cgi-bin/cgitask.py" class="sticky" target="blank">
+		<input type="text" placeholder="Enter Commands" name="x" /><br><br>
+		<button>ENTER</button>
+	</form>
+</body>
+
+</html>
